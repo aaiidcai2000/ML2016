@@ -69,9 +69,9 @@ def test(data_csv,w,b):
 
 w,b=train('train.csv')
 
-#res = test('test_X.csv',w,b)
+res = test('test_X.csv',w,b)
 
-#res.to_csv('linear_regression_basic.csv',index=False )
+res.to_csv('linear_regression_basic.csv',index=False )
 
 
 

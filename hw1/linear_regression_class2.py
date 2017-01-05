@@ -42,7 +42,6 @@ def linear_regression(X,Y,rate):
         G2[i]= lambdify((W,B),G2[i],"numpy")
     
 
-    #for j in range(2):   
     while(R<= lastR):
         lastR=R
         R = residual(w0,b0)
